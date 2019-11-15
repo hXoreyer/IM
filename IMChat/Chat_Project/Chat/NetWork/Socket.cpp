@@ -23,7 +23,7 @@ bool Socket::request_server()
 
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_port = htons(4500);
-    serverAddr.sin_addr.S_un.S_addr = inet_addr("47.106.14.185");
+    serverAddr.sin_addr.S_un.S_addr = inet_addr("**.***.**.***");
 
     if((::connect(m_socket,reinterpret_cast<SOCKADDR *>(&serverAddr),sizeof (serverAddr))) == SOCKET_ERROR)
     {
