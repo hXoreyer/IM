@@ -1,0 +1,110 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-image:url(image/background.jpg);
+  font-size: 1vw
+}
+.register_body{
+  background-color: #ffffff;
+  width:30%;
+  height: 80%;
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px #BEBEBE;
+}
+.submit_form{
+  margin:5%;
+  height: 90%;
+}
+.submit_form p
+{
+  color:#828282;
+}
+#user{
+  height: 10%;
+  width: 99%;
+  margin-top: 8%;
+  position:inherit;
+  border-radius: 5px;
+  align-content: center;
+  font-weight:300;
+  border: 1px solid;
+  border-color:#cfcfcf;
+  text-indent:1vw
+}
+#psw,#email{
+  height: 10%;
+  width: 99%;
+  margin-top: 8%;
+  position:inherit;
+  border-radius: 5px;
+  align-content: center;
+  font-weight:300;
+  border: 1px solid;
+  border-color:#cfcfcf;
+  text-indent:1vw
+}
+#rand
+{
+  height: 10%;
+  width: 30%;
+  margin-top: 8%;
+  border-radius: 5px;
+  font-weight: 300;
+  border: 1px solid;
+  border-color: #cfcfcf;
+  text-indent: 1vw
+}
+#get_rand
+{
+  margin-left: 7%;
+  height: 11%;
+  width: 60%;
+  margin-top: 8%;
+  border-radius: 5px;
+  font-weight: bold;
+  text-indent: 1px;
+  background-color:#4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+#get_rand:hover
+{
+    background-color:#45a049;
+}
+.submit_form input[type = text]:focus
+{
+  box-shadow: 0px 0px 2px 2px #87CEFF;
+  color:#828282;
+}
+.submit_form input[type = password]:focus
+{
+  box-shadow: 0px 0px 2px 2px #87CEFF;
+  color:#828282;
+}
+#sub:hover
+{
+  background-color:#45a049;
+}
+#sub
+{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 14%;
+  font-weight: bold;
+  height: 10%;
+  width: 99%;
+  margin-top: 8%;
+  position:inherit;
+  border-radius: 5px;
+}
+#show_psw
+{
+  color: #cfcfcf;
+}
